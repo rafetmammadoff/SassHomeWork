@@ -1,0 +1,287 @@
+.present{
+    background-color: #212529;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5rem 0px;
+            .text-area{
+                h1{
+                    color: white;
+                    font-size: 48px;
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                    text-align: center;
+                }
+                .desc{
+                    color: #8d8d91;
+                    margin-bottom: 24px;
+                    text-align: center;
+                }
+                .btn-area{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    button{
+                        width: 150px;
+                        height: 48px;
+                        margin-right: 35px;
+                    }
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+}
+.featured{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .container{
+        .row{
+            .my-card{
+                margin-bottom: 30px;
+                padding: 0px 20px;
+                .icon-area{
+                    margin-bottom: 16px;
+                    width: 64px;
+                    height: 64px;
+                    background-color: #0d6efd;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    i{
+                        color: white;
+                        font-size: 30px;
+                    }
+                }
+                .title{
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                .content{
+                    margin-bottom: 15px;
+                }
+                .link{
+                    color: #0d6efd;
+                    i{
+
+                    }
+                }
+            }
+        }
+    }
+}
+.pay{
+    background-color: #f8f9fa;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .container{
+        .title{
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            
+            text-align: center;
+        }
+        .desc{
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .row{
+            .card-area{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .my-card{
+                    background-color: white;
+                    padding: 50px;
+                    border: 1px solid rgba(0, 0, 0, 0.125);
+                    margin-bottom: 30px;
+                    .title{
+                        color:#6c757d;
+                        font-size: 14px;
+                        font-weight: 700;
+                        i{
+                            color: orange;
+                            font-size: 15px;
+                        }
+                    }
+                    .price{
+                        font-size: 56px;
+                        font-weight: 900;
+
+                        .month{
+                            font-size: 14px;
+                            font-weight: 400;
+
+                        }
+                    }
+                    .list{
+                        margin-bottom: 8px;
+                        i{
+                            font-size: 10px;
+                            color: #0d6efd;
+                            margin-right: 5px;
+                        }
+                        
+                    }
+                    .x{
+                        color: #8d8d91;
+                    }
+                    .button-area{
+                        button{
+                            width: 218px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.customer{
+    margin-bottom: 60px;
+    .container{
+        .title{
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            
+            text-align: center;
+        }
+        .desc{
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .row{
+            .card-area{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 34px;
+                .my-card{
+
+                    width: 50%;
+                    box-sizing: border-box;
+                    padding: 24px;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+                    border: 1px solid rgba(0, 0, 0, 0.125);
+                    .icon-area{
+                        i{
+                            font-size: 40px;
+                            color: #0d6efd;
+
+                        }
+                    }
+                    .text-area{
+                        padding-left: 22px;
+                        padding-right: 5px;
+                        .card-title{
+                            margin-bottom: 10px;
+                        }
+                        .description{
+                            font-size: 14px;
+                            color: #6c757d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.form-section{
+    background-color: rgb(248, 249, 250);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .col-lg-12{
+      
+                .icon{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .icon-area{
+                        margin-bottom: 16px;
+                        width: 64px;
+                        height: 64px;
+                        background-color: #0d6efd;
+                        border-radius: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        i{
+                            color: white;
+                            font-size: 30px;
+                        }
+                    }
+                }
+                .title{
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .content{
+                    margin-bottom: 15px;
+                    text-align: center;
+                }
+            }
+            .form-area{
+                form{
+                    input{
+                        padding: 16px 12px;
+                    }
+                    textarea{
+                        border: 1px solid #ced4da;
+                        width: 100%;
+                        border-radius: 4px;
+                    }
+                    button{
+                        height: 48px;
+                        background: #5788d1;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .present{
+        .btn-area{
+            display: block !important;
+            width: 100% !important;
+
+            .bttn{
+                display: flex !important;
+                margin-bottom: 20px;
+
+                button{
+                    width: 80% !important;
+                    margin: 0 auto  !important;
+
+                }
+            }
+        }
+    }
+    .customer{
+        .my-card{
+            width: 100% !important;
+        }
+    }
+}

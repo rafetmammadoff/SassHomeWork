@@ -1,0 +1,378 @@
+.present {
+  background-color: #212529;
+}
+
+.present .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 0px;
+}
+
+.present .container .row .text-area h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.present .container .row .text-area .desc {
+  color: #8d8d91;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.present .container .row .text-area .btn-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 70px;
+}
+
+.present .container .row .text-area .btn-area button {
+  width: 150px;
+  height: 48px;
+  margin-right: 35px;
+}
+
+.featured {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.featured .container .row .my-card {
+  margin-bottom: 30px;
+  padding: 0px 20px;
+}
+
+.featured .container .row .my-card .icon-area {
+  margin-bottom: 16px;
+  width: 64px;
+  height: 64px;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.featured .container .row .my-card .icon-area i {
+  color: white;
+  font-size: 30px;
+}
+
+.featured .container .row .my-card .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.featured .container .row .my-card .content {
+  margin-bottom: 15px;
+}
+
+.featured .container .row .my-card .link {
+  color: #0d6efd;
+}
+
+.pay {
+  background-color: #f8f9fa;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.pay .container .title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.pay .container .desc {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.pay .container .row .card-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pay .container .row .card-area .my-card {
+  background-color: white;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 30px;
+}
+
+.pay .container .row .card-area .my-card .title {
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pay .container .row .card-area .my-card .title i {
+  color: orange;
+  font-size: 15px;
+}
+
+.pay .container .row .card-area .my-card .price {
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.pay .container .row .card-area .my-card .price .month {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.pay .container .row .card-area .my-card .list {
+  margin-bottom: 8px;
+}
+
+.pay .container .row .card-area .my-card .list i {
+  font-size: 10px;
+  color: #0d6efd;
+  margin-right: 5px;
+}
+
+.pay .container .row .card-area .my-card .x {
+  color: #8d8d91;
+}
+
+.pay .container .row .card-area .my-card .button-area button {
+  width: 218px;
+  margin-top: 20px;
+}
+
+.customer {
+  margin-bottom: 60px;
+}
+
+.customer .container .title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.customer .container .desc {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.customer .container .row .card-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 34px;
+}
+
+.customer .container .row .card-area .my-card {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.customer .container .row .card-area .my-card .icon-area i {
+  font-size: 40px;
+  color: #0d6efd;
+}
+
+.customer .container .row .card-area .my-card .text-area {
+  padding-left: 22px;
+  padding-right: 5px;
+}
+
+.customer .container .row .card-area .my-card .text-area .card-title {
+  margin-bottom: 10px;
+}
+
+.customer .container .row .card-area .my-card .text-area .description {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.form-section {
+  background-color: #f8f9fa;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.form-section .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-section .container .row .col-lg-12 .icon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-section .container .row .col-lg-12 .icon .icon-area {
+  margin-bottom: 16px;
+  width: 64px;
+  height: 64px;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-section .container .row .col-lg-12 .icon .icon-area i {
+  color: white;
+  font-size: 30px;
+}
+
+.form-section .container .row .col-lg-12 .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-section .container .row .col-lg-12 .content {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-section .container .row .form-area form input {
+  padding: 16px 12px;
+}
+
+.form-section .container .row .form-area form textarea {
+  border: 1px solid #ced4da;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.form-section .container .row .form-area form button {
+  height: 48px;
+  background: #5788d1;
+  width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  .present .btn-area {
+    display: block !important;
+    width: 100% !important;
+  }
+  .present .btn-area .bttn {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin-bottom: 20px;
+  }
+  .present .btn-area .bttn button {
+    width: 80% !important;
+    margin: 0 auto  !important;
+  }
+  .customer .my-card {
+    width: 100% !important;
+  }
+}
+
+footer .foot {
+  height: 120px;
+  background-color: #212529;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav {
+  background-color: #212529;
+}
+
+header nav .container .navbar {
+  background-color: transparent !important;
+}
+
+header nav .container .navbar .navbar-brand {
+  color: white;
+}
+
+header nav .container .navbar ul li a {
+  color: #a8a4a4;
+}
+
+header nav .container .navbar ul li:first-child a {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

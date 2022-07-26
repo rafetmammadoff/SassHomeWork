@@ -1,0 +1,26 @@
+header{
+    nav{
+        background-color: #212529;
+        .container{
+            .navbar{
+                background-color: transparent !important;
+                .navbar-brand{
+                    color: white;
+                }
+                ul{
+                    li{
+                        a{
+                            color: rgb(168, 164, 164);
+                            
+                        }
+                        &:first-child{
+                            a{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
